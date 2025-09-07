@@ -3,80 +3,74 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
-    paddingHorizontal: 20,
-    paddingTop: 20,
+    backgroundColor: "#F5F5F5",
   },
-
-  // Search section
   searchGroup: {
-    marginBottom: 20,
+    padding: 16,
+    backgroundColor: "#34967C",
   },
   searchFormGroup: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#fff",
-    borderRadius: 30,
-    borderWidth: 1,
-    borderColor: "#E9E9E9",
-    paddingHorizontal: 10,
-    height: 60,
-    justifyContent: "space-between",
+    backgroundColor: "white",
+    borderRadius: 10,
+    padding: 8,
   },
   searchControlGroup: {
     flex: 1,
-    justifyContent: "center",
+    flexDirection: "column",
+    gap: 4,
   },
   searchFormText: {
     fontSize: 16,
-    color: "#333",
-  },
-  searchControl: {
-    flex: 1,
-    fontSize: 14,
     color: "#7B7B7B",
   },
+  searchControl: {
+    backgroundColor: "#F5F5F5",
+    borderRadius: 8,
+    padding: 8,
+    fontSize: 16,
+  },
   searchButton: {
-    width: 44,
-    height: 44,
-    borderRadius: 22,
     backgroundColor: "#34967C",
+    borderRadius: 8,
+    padding: 8,
+    marginLeft: 8,
     justifyContent: "center",
     alignItems: "center",
-    marginLeft: 8,
   },
-
-  // Filters
   filterGroup: {
     flexDirection: "row",
-    alignItems: "center",
-    paddingHorizontal: 10,
-    columnGap: 15,
+    gap: 12,
+    padding: 8,
   },
   filterContainer: {
     alignItems: "center",
-    marginRight: 20,
+    justifyContent: "center",
+    width: 72,
+    height: 72,
+    backgroundColor: "#F5F5F5",
+    borderRadius: 36,
+    marginRight: 8,
   },
-
-  // Listings
   listingContainer: {
-    marginTop: 20,
+    flex: 1,
+    padding: 16,
   },
   paginationContainer: {
     alignItems: "center",
-    marginTop: 20,
-    marginBottom: 40,
+    marginVertical: 16,
   },
   showMoreButton: {
     backgroundColor: "#34967C",
-    paddingHorizontal: 20,
-    paddingVertical: 12,
-    borderRadius: 30,
+    borderRadius: 8,
+    paddingVertical: 10,
+    paddingHorizontal: 24,
   },
   showMoreButtonText: {
-    color: "#fff",
+    color: "white",
     fontSize: 16,
-    fontWeight: "600",
+    fontWeight: "bold",
   },
 });
 
